@@ -1,0 +1,68 @@
+import java.util.Scanner;
+
+public class Main
+{
+    public static void f1() 
+    {
+      Scanner scan = new Scanner(System.in);
+      System.out.println("Enter name:");
+      String name1 = scan.nextLine();
+      System.out.println("hello " + name1);
+    }
+    public static void f2(int num) 
+    {
+      int num1= num/5;
+      System.out.println(num1);
+    }
+    public static int f3(int num,int num1) 
+    {
+      int sum= num*num1;
+      return sum;
+    }
+    public static int f4(int num,int num1,int num2) 
+    {
+      int sum= num+num1+num2;
+      int mamoza= sum/3;
+      System.out.println(sum);
+      return mamoza;
+    }
+    public static void f5(double radios) 
+    {
+      double R=Math.pow(radios,radios);
+      double S=3.14*R;
+      double P=2*3.14*radios;
+      System.out.println(S);
+      System.out.println(P);
+    }
+    public static double f6(double a, double b) 
+    {
+      double A=Math.pow(a,2);
+      double B=Math.pow(b,2);
+      double sum=A+B;
+      double C=Math.sqrt(sum);
+      return C;
+    }
+    public static void f7(String str1) 
+    {
+      char letter1=str1.charAt(0); 
+      char letter2=str1.charAt(1); 
+      char letter3=str1.charAt(2);
+      System.out.println(letter3+"" +letter2+letter1);
+    }
+    public static int f8(int a1,int n,int d) 
+    {
+    an=a1+(n-1)*d;
+    return an;
+    }
+    public static void main(String[] args)
+    {
+    f1();
+    f2(20);
+    f3(5,4);
+    f4(5,4,3);
+    f5(6);
+    f6(5,4);
+    f7(noa);
+    f8(5,3,2);
+    }
+} 
